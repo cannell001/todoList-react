@@ -17,7 +17,7 @@ export default class extends Component {
     render() {
         return (
             <div onClick={this.climb.bind(this)}>
-                <h1>Counting: {this.state.count}</h1>
+                <h1>Count: {this.state.count}</h1>
             </div>
         )
     }
